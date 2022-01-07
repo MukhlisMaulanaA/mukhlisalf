@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+
+    <!--===== CSS =====-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--========== SWEET ALERT ==========-->
+    <link rel="stylesheet" type="text/css" href="assets/dist/sweetalert2.min.css">
+    <script type="text/javascript" src="assets/dist/sweetalert2.all.js"></script>
+
+    <title>Mukhlis Maulana Al-Fakih</title>
+</head>
+<body>
+    <!--===== SCROLL TOP =====-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!--===== HEADER =====-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Al-Fakih.</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <!-- <li class="nav__item"><a href="#share" class="nav__link">Share</a></li> -->
+                    <li class="nav__item"><a href="#decoration" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
+                    <li><i class="bx bx-toggle-left change-theme" id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__img">
+                    <img src="assets/img/home.png" alt="">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Hi, i'm Mukhlis Maulana Al-Fakih</h1>
+                    <p class="home__description">Welcome to my personal Website <br> Nice to meet you.</p>
+                    <a href="#" class="button" onclick="sweet()">Say Hello!</a>
+                </div>
+            </div>
+            <div class="about section bd-container" id="about">
+                <h2 class="section__title">About Me </h2>
+                <p class="about__me">Hi, Mukhlis Maulana Al-Fakih is my name, I am currently studying at Singaperbangsa Karawang University, at the Faculty of Engineering, Electrical Engineering study program.
+                I am interested in programming languages, and Internet of Things Technology. How about you ? 
+                </p>
+            </div>
+        </section>
+
+        <!--===== SHARE =====--> <!--
+        <section class="share section bd-container" id="share">
+            <div class="share__container bd-grid">
+                <div class="share__data">
+                    <h2 class="section-title-center">Sharing Is The Best Gift <br> You Can Give</h2>
+                    <p class="share__description">Sharing these holidays is the best gift you can give, give a present or share your love with the people you love the most and celebrate with great happiness.</p>
+                    <a href="#" class="button">Send a Gift</a>
+                </div>
+
+                <div class="share__img">
+                    <img src="assets/img/shared.png" alt="">
+                </div>
+            </div>
+        </section>
+        -->
+        <!--===== DECORATION =====-->
+        <section class="decoration section bd-container" id="decoration">
+            <h2 class="section-title">My Project </h2>
+            <div class="decoration__container bd-grid">
+                <div class="decoration__data">
+                    <img src="assets/img/briefcase.svg" alt="" class="decoration__img">
+                    <h3 class="decoration__title">C.R.U.D Application</h3>
+                    <p>This project was created using HTML, CSS and PHP, then for the database using MySQL</p>
+                    <a target="_blank" href="http://localhost/pendaftaran-siswa/" class="button button-link">Let's See >>></a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/login.svg" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Login & Register</h3>
+                    <p>This project was created using HTML, CSS and PHP, then for the database using MySQL</p>
+                    <a href="#" class="button button-link">Let's See >>></a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/key.svg" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Web Administrator</h3>
+                    <p>This project was created using HTML, CSS and PHP, then for the database using MySQL</p>
+                    <a href="#" class="button button-link">Let's See >>></a>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section bd-container" id="contact">
+            <h2 class="section-title">Personal <br> Contact</h2>
+            <div class="contact__container bd-grid">
+                <div class="contact__content">
+                    <img src="assets/img/whatsapp.png" alt="" class="contact__img">
+                    <h3 class="contact__title">Whatsapp</h3>
+                    <span class="contact__category">+62 858 9145 5154</span>
+                    <!--<span class="contact__preci">$9.45</span>-->
+                    <a href="#" class="button contact__button"><i class='bx bx-link-external'></i></a>
+                </div>
+
+                <div class="contact__content">
+                    <img src="assets/img/facebook.png" alt="" class="contact__img">
+                    <h3 class="contact__title">Facebook</h3>
+                    <span class="contact__category">Mukhlis Maulana Al - Faqih</span>
+                    <a href="#" class="button contact__button"><i class='bx bx-link-external'></i></a>
+                </div>
+
+                <div class="contact__content">
+                    <img src="assets/img/instagram.png" alt="" class="contact__img">
+                    <h3 class="contact__title">Instagram</h3>
+                    <span class="contact__category">@alfaqih.qih</span>
+                    <a href="#" class="button contact__button"><i class='bx bx-link-external'></i></a>
+                </div>
+
+                <div class="contact__content">
+                    <img src="assets/img/twitter.png" alt="" class="contact__img">
+                    <h3 class="contact__title">Twitter</h3>
+                    <span class="contact__category">@alt_f4</span>
+                    <a href="#" class="button contact__button"><i class='bx bx-link-external'></i></a>
+                </div>
+
+                <div class="contact__content">
+                    <img src="assets/img/gmail.png" alt="" class="contact__img">
+                    <h3 class="contact__title">Gmail</h3>
+                    <span class="contact__category">mukhlis.maulanaalf @gmail.com</span>
+                    <a href="#" class="button contact__button"><i class='bx bx-link-external'></i></a>
+                </div>
+                <div class="contact__content">
+                    <img src="assets/img/github-logo.png" alt="" class="contact__img">
+                    <h3 class="contact__title">Github</h3>
+                    <span class="contact__category">MukhlisMaulanaA</span>
+                    <a href="#" class="button contact__button"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SEND GIFT =====-->
+        <section class="send section">
+            <div class="send__container bd-container bd-grid">
+                <div class="send__content">
+                    <h2 class="section-title-center send__title">Feedback</h2>
+                    <p class="send__description">Would you mind giving honest feedback about this Website ? </p>
+                    <form action="mukhlis.maulanaalf@gmail.com" enctype="text/plain">
+                        <div class="send__direction">
+                            <input type="text" placeholder="Your Feedback.." class="send__input">
+                            <a href="#" class="button">Send</a>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="send__img">
+                    <img src="assets/img/feedback.svg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+        
+        <!--===== FOOTER =====--><!--
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__container">
+                    <h3 class="footer__title">
+                        <a href="#" class="footer__logo">Kiresmass gip</a>
+                    </h3>
+                    <p class="footer__descriptioni">I sent a gift it gives <br> Heppiness</p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Sercvice</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Pricing </a></li>
+                        <li><a href="#" class="footer__link">Discont </a></li>
+                        <li><a href="#" class="footer__link">Shipping mode </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Company</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">About my self</a></li>
+                        <li><a href="#" class="footer__link">Our Mission</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt' ></i></a>
+                </div>
+            </div>
+            -->
+            <p class="footer__copy">&#169; 2021 Mukhlis Maulana Al-Fakih</p>
+        </footer>
+        
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script> 
+
+        <!--========== JS ALERT "SWEET ALERT 2" ==========-->
+        <script>
+            function sweet()
+            {
+                Swal.fire({
+                    title: 'Nice to Meet You!',
+                    heightAuto: 'true',
+                    imageUrl: 'https://image.flaticon.com/icons/png/512/5229/5229452.png',
+                    imageWidth: 150,
+                    imageHeight: 150,
+                    confirmButtonColor: '#C41230',
+                    confirmButtonText: '‏‏‎‎‏                 Thank You!                 ',
+                })
+            }
+        </script>
+</body>
+</html>
